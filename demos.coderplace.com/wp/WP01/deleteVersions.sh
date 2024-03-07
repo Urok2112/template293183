@@ -1,0 +1,1 @@
+find . -name "index.html" -exec sed -i -r "s/(\?ver=[0-9]+.[0-9]+.[0-9]+)//g" {} +
